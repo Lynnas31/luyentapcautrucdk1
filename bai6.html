@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let doanhthu = parseInt(prompt('nhap doanh thu thang'));
+    let hoahong =null;
+    if (doanhthu <=1000000){
+        hoahong = doanhthu*2/100;
+    } else if (doanhthu <= 5000000) {
+        hoahong = doanhthu*5/100;
+    } else {
+        hoahong = doanhthu*10/100;
+    }
+    alert(hoahong)
+</script>
+</body>
+</html>

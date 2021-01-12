@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let diemkiemtra = parseFloat(prompt('nhap diem kiem tra'));
+    let diemgiuaki = parseFloat(prompt('nhap diem giua ki'));
+    let diemcuoiki = parseFloat(prompt('nhap diem cuoi ki'));
+
+    result = ((diemkiemtra + diemgiuaki)*0.3 + diemcuoiki*0.7)/3;
+    if (result >= 8) {
+        alert('dat hoc luc gioi');
+    } else if (result >=6.5 ) {
+        alert('dat hoc luc kha');
+    } else if (result >=5 ) {
+        alert('dat hoc luc trung binh');
+
+    } else {
+        alert('dat hoc luc yeu');
+    }
+</script>
+</body>
+</html>
